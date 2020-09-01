@@ -1,0 +1,129 @@
+@font-face {
+	font-family: 'VCROSD';
+	src: url('../font/VCRODS.ttf') format('truetype');
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	background: url('../gfx/bg.jpg') no-repeat center center fixed;
+	font-family: Arial, Helvetica;
+	margin: 0px auto;
+}
+
+ul.topnav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #000;
+}
+
+ul.topnav li {
+	float: left;
+}
+
+ul.topnav li a {
+	display: inline-block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: 0.3s;
+	font-size: 17px;
+}
+
+ul.topnav li a:hover {
+	background-color: #555;
+}
+
+ul.topnav li.icon {
+	display: none;
+}
+
+.section {
+	margin: 20px auto;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.35);
+	box-sizing: border-box;
+	color: white;
+}
+
+.box-model {
+	padding: 20px;
+	border-radius: 5px;
+	width: 96%;
+	height: 80%;
+}
+
+.playground {
+	top: -20px;
+	left: 0;
+	position: fixed;
+	right: 0;
+	height: 50px;
+	background-color: black;
+	color: white;
+	font-family: 'VCROSD';
+}
+
+.logo {
+	font-family: 'VCROSD';
+}
+
+#footer {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	height: 7%;
+	width: 100%;
+	background: #000;
+	color: white;
+	text-align: center;
+	font-size: 11px;
+}
+
+/*Opera Fix*/
+body:before {
+	content: "";
+	height: 100%;
+	float: left;
+	width: 0;
+	margin-top: -32767px;/
+}
+
+/* Rounded avatars */
+.avatar {
+	margin-top: 1em;
+	margin-right: 1em;
+	position: relative;
+
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+
+	-webkit-box-shadow: 0 0 0 3px #5a5a5a, 0 2px 5px 4px rgba(0, 0, 0, 0.24);
+	-moz-box-shadow: 0 0 0 3px #5a5a5a, 0 2px 5px 4px rgba(0, 0, 0, 0.24);
+	box-shadow: 0 0 0 3px #5a5a5a, 0 2px 5px 4px rgba(0, 0, 0, 0.24);
+}
+
+.button {
+	background-color: #555;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 21px;
+}
+
+#imgwithcaption {
+	float: left;
+	width: 178px;
+	text-align: center;
+}
